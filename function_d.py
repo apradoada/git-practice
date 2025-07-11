@@ -5,9 +5,8 @@ def max_value(numbers):
     maxi = 0
     for i in range(len(numbers)):
         maxi = max(maxi, i)
+    print("hello")
     return maxi
-
-
 
 if __name__ == "__main__":
     print(max_value([1, 12, 2, 42, 8, 3]))
